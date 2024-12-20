@@ -134,7 +134,7 @@ const killProcess = async (port) => {
 
 // Start the server
 (async () => {
-  await killProcess(4000);
+  await killProcess(4001);
   await startServer();
 })();
 
