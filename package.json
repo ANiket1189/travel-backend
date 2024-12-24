@@ -1,0 +1,31 @@
+{
+  "name": "travel-backend",
+  "version": "1.0.0",
+  "description": "Travel Booking Application Backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.13",
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "graphql-subscriptions": "^3.0.0",
+    "graphql-ws": "^5.16.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.4",
+    "subscriptions-transport-ws": "^0.11.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
